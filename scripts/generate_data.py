@@ -59,7 +59,7 @@ def save_data(users_df, products_df, events_df):
     users_df.to_csv("data/users.csv", index=False)
     products_df.to_csv("data/products.csv", index=False)
     events_df.to_csv("data/events.csv", index=False)
-    print("✅ Data generated and saved in /data folder.")
+    print("Data generated and saved in /data folder.")
 
 def main():
     print("🔄 Generating fake data...")

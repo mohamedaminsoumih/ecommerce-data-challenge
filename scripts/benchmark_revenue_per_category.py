@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 # Database connection config
 DB_NAME = "ecommerce"
 DB_USER = "postgres"
-DB_PASSWORD = "admin"  # Replace this
+DB_PASSWORD = "admin"  
 DB_HOST = "localhost"
 DB_PORT = "5432"
 
