@@ -64,6 +64,5 @@ ecommerce/
 
 - Elasticsearch is required for Part III (run using Docker)  
 - PostgreSQL is required for Part I and II  
-- Segment labels include: `tech_enthusiast`, `budget_buyer`, `fashion_oriented`, `other`  
 - Strategy summary provided in `strategy.md`  
 
