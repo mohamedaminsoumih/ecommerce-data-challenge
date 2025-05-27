@@ -35,7 +35,7 @@ def build_retention_matrix(df):
     df['weeks_since_signup'] = ((df['event_week'] - df['signup_date']).dt.days // 7).astype(int)
     df['cohort_month'] = df['signup_date'].dt.to_period('M')
 
-    # ✅ Add this line to remove invalid values
+    # Remove invalid values
     df = df[df['weeks_since_signup'] >= 0]
 
     # Keep only weeks 0 to 7
