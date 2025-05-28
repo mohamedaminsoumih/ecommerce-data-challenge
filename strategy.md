@@ -35,4 +35,4 @@ The challenge was approached with clean separation of concerns:
 - Segmentation
 - Documentation
 
-Focus was placed on clarity, reproducibility, and professionalism — not shortcuts. Each part can run independently and be reused in real-world systems like e-commerce personalization engines or user analytics dashboards.
+

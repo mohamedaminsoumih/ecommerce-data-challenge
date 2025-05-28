@@ -89,5 +89,5 @@ if __name__ == "__main__":
 
     print(labeled_df.groupby("segment").head(3))
 
-    # Optional: Save back to ES
+    # Save back to ES
     save_segmented_users_to_es(labeled_df)
